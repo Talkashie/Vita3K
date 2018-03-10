@@ -48,7 +48,7 @@ EXPORT(int, scePowerGetBatteryFullCapacity) {
 }
 
 EXPORT(int, scePowerGetBatteryLifePercent) {
-    return unimplemented("scePowerGetBatteryLifePercent");
+    return 100;
 }
 
 EXPORT(int, scePowerGetBatteryLifeTime) {
