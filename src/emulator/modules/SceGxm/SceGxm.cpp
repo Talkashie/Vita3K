@@ -84,7 +84,7 @@ static bool compile_shader(GLuint shader, const SceGxmProgram *program, const ch
     const std::array<char, 65> hash_text = hex(hash_bytes);
     
     std::ostringstream path;
-    path << base_path << "shaders\" << hash_text.data() << ".glsl";
+    path << base_path << "shaders\\" << hash_text.data() << ".glsl";
 
     std::ifstream is(path.str());
     if (is.fail()) {
