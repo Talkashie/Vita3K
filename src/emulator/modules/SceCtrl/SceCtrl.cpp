@@ -321,7 +321,7 @@ EXPORT(int, sceCtrlSetRapidFire) {
 }
 
 EXPORT(int, sceCtrlSetSamplingMode) {
-    return unimplemented("sceCtrlSetSamplingMode");
+    return SCE_CTRL_MODE_ANALOG;
 }
 
 EXPORT(int, sceCtrlSetSamplingModeExt) {
