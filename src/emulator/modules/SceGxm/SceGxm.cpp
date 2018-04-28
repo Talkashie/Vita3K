@@ -1140,8 +1140,8 @@ EXPORT(int, sceGxmSetFrontDepthBias) {
     return unimplemented("sceGxmSetFrontDepthBias");
 }
 
-EXPORT(int, sceGxmSetFrontDepthFunc) {
-    return unimplemented("sceGxmSetFrontDepthFunc");
+EXPORT(int, sceGxmSetFrontDepthFunc, SceGxmContext *context, SceGxmDepthFunc depthFunc) {
+    return 0;
 }
 
 EXPORT(void, sceGxmSetFrontDepthWriteEnable, SceGxmContext *context, SceGxmDepthWriteMode enable) {
